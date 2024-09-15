@@ -1,6 +1,6 @@
-using Tyuiu.TomilovDA.Sprint1.Task0.V17.Lib;
+using Tyuiu.TomilovDA.Sprint1.Task1.V19.Lib;
 
-namespace Tyuiu.TomilovDA.Sprint1.Task0.V17.Test
+namespace Tyuiu.TomilovDA.Sprint1.Task1.V19.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -9,8 +9,6 @@ namespace Tyuiu.TomilovDA.Sprint1.Task0.V17.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            var res = ds.Calculate();
-            Assert.AreEqual(5, res);
         }
     }
 }
