@@ -6,19 +6,16 @@ namespace dgfgd
     {
         static void Main(string[] args)
         {
-            int a = 3;
+            int a = 7;
 
-            int b = --a + 2;
+            int b = a - 5;
 
-            int c = b;
+            a -= 2 * --b;
 
-            a = a + b + c;
+            b *= a++;
 
-            c = b++ + a;
+            int x = a + b;
 
-            b = b - a;
-
-            int x = a + b + c;
             Console.WriteLine(x);
 
         }
