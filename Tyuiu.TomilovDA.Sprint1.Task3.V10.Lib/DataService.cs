@@ -8,7 +8,7 @@ namespace Tyuiu.TomilovDA.Sprint1.Task3.V10.Lib
         {
             
 
-            return number * 100;
+            return number;
         }
     }
 }

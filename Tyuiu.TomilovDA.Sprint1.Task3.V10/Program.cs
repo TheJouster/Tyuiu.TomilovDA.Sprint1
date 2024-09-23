@@ -38,7 +38,7 @@ namespace Tyuiu.TomilovDA.Sprint1.Task3.V10
 
             DataService ds = new DataService();
 
-            var result = Convert.ToInt32(ds.NumberToMoney(x));
+            var result = Convert.ToInt32(ds.NumberToMoney(x)*100);
             
 
             Console.WriteLine($"{x} руб. — это {result/100} руб. {result%100} коп.");
