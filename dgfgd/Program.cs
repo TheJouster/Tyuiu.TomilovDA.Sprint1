@@ -6,18 +6,23 @@ namespace dgfgd
     {
         static void Main(string[] args)
         {
-            int a = 7;
+            int a, b, c;
 
-            int b = a - 5;
+            Console.WriteLine("Enter data");
 
-            a -= 2 * --b;
+            a = Convert.ToInt32(Console.ReadLine());
 
-            b *= a++;
+            b = Convert.ToInt32(Console.ReadLine());
 
-            int x = a + b;
+            c = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(x);
+            int d = a + b;
 
+            c -= a + b;
+
+            Console.WriteLine("Result = {0}", d + c);
+
+            
         }
     }
 }
